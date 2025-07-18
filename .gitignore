@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+.env
+.env.*
+*.sqlite3
+*.db
+*.log
+*.bak
+*.swp
+*.tmp
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+!test.ipynb
+
+# VS Code
+.vscode/
+
+# Docker
+*.pid
+docker-compose.yml
+*.tar
+
+# Cassandra
+cassandra.yaml
+cassandra.log
+
+# System
+.DS_Store
+Thumbs.db
+
+# PDF and docs
+*.pdf
+*.md
+!pasos.md
+
+# Pip
+get-pip.py
+
+# Misc
+*.csv
+*.json
+
+# Ignore all except main notebook and pasos.md
+!test.ipynb
+!pasos.md
